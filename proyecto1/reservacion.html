@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <link rel ="stylesheet" href="../CMJ_ProyectoRestaurante/reservacion.css">
+        <script src="index.js" defer></script>
+        
+    </head>
+    
+    <body>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <section class="full-content-Reservation">
+        <div class="logo"><img src="pics/LogoMakr-5Fiwpo.png" alt="Restaurante"></div>
+          
+         <blockquote>"No hay personas mejores que aquellas a quienes les encanta la buena comida"</blockquote>
+S
+        <div class='reservacion'>
+            <div class="backdrop"></div>
+            <section class="reservacionbox">
+                <a name="reservcionSection"></a>
+                <form action="mail.php" method="post" id="contact_form">
+                    
+                    <div class="name">
+                        <label for="name"></label>
+                        <input type="text" placeholder="My name is" name="name" id="name_input" required>
+                    </div>
+                    <div class="email">
+                        <label for="email"></label>
+                        <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+                    </div>
+                    <div class="telephone">
+                        <label for="number"></label>
+                        <input type="number" placeholder="My number is" name="telephone" id="telephone_input" required>
+                    </div>
+                     <div class="date-time">
+                        <label for="date"></label>
+                        <input type="datetime-local" placeholder="Reservation date" name="telephone" id="date_input" required>
+                    </div>
+                    <div class="date">
+                    <label for="subject"></label>
+                <select placeholder="Subject line" name="subject" id="subject_input" required>
+                    <option disabled hidden selected>Asunto</option>
+                    <option>Festejo</option>
+                    <option>reunion</option>
+                    <option>Nuguno</option>
+                </select>
+                    </div>
+
+                  
+
+                    <button id="summit" type="button"
+                    name="summit"> Send Reservation
+                    </button>
+                    <p id="resultado"></p>
+                    
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="319" height="225" id="gmap_canvas"       src="https://maps.google.com/maps?q=unisite&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"> 
+                            </iframe>
+                        </div>
+                    </div>
+              
+            </form>
+                
+                 <div class="elfsight-app-0a4af68f-9dec-445a-8ec7-be62d945fe14"></div>
+                 <div class="elfsight-app-6003db90-82cf-4b5e-8d00-606b804008ff"></div>
+     
+
+                  </section>
+               </div>
+        </section> 
+    </body>
+    
+  
+</html>
