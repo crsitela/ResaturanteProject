@@ -1,0 +1,185 @@
+@import url('https://css.gg/list.css');
+@import url('https://css.gg/bowl.css');
+@import url('https://css.gg/home-alt.css');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+/*------------RESERVACION---------------------------*/
+body{
+    width: 100vw;
+    margin: 0;
+    font-family: helvetica;
+    background-image: url(pics/pexels-pixabay-235985.jpg);
+
+
+}
+
+
+
+.full-content{
+    width: 100%;
+    height: 100vh;
+    background-color:#e8ddd4;
+     padding-top: 250px;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 20%;
+    opacity:0.5;
+}
+.full-content-Reservation{
+    width: 100%;
+    height: 100vh;
+    background-color:#e8ddd4;
+     padding-top: 250px;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 20%;
+    opacity:0.5;
+
+}
+
+.full-content-Reservation a{
+   text-decoration: none; 
+}
+
+.full-content-Reservation img{
+    width: 300px;
+    padding-bottom:0%;
+    margin: 0 auto;
+    position: absolute;
+    top: 90px;
+    right: 0.2px;
+    left: 0.2px;
+
+ }   
+
+
+
+.full-content-Reservation blockquote{
+    height:4%;
+    padding-bottom:0%;
+    text-align: center;
+    padding-bottom:8%;
+      font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    color:#150a01;
+    position: absolute;
+    top:30%;
+    right: 0.2px;
+    left: 0.2px;
+
+}
+
+
+
+
+
+.reservacionbox{
+    opacity:0.9; 
+
+}
+
+.reservacionbox #contact_form{
+   background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    padding:50px;
+    border-radius:30px;
+    ;
+
+
+}
+
+#contact_form{
+    border-style: double;
+
+}
+
+#contact_form .name{
+    float: left;
+  width: 80%;
+}
+
+#contact_form .email{
+    float: right;
+}
+
+input[type='text'], [type='email'], [type='number'],[type='datetime-local'],select, textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px black;
+  color: #474544;
+  font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#contact_form .telephone{
+ width: 100%;
+}
+
+#contact_form .date-time{
+    float: right;
+}
+#contact_form .date{
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #474544;
+}
+
+:-moz-placeholder { 
+  color: #474544;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #474544;
+}
+
+#contact_form #summit{
+    height: 30px;
+    border: solid 2px #474544;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    padding: 2px 80px;
+    margin-left:15%;
+    border-radius:60px;
+
+}
+
+.mapouter .gmap_canvas{
+    padding-top:40px;
+    padding-bottom:100px;
+    padding-left: 30px;
+    height: 150px;
+}
