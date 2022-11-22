@@ -9,7 +9,7 @@ body{
     width: 100vw;
     margin: 0;
     font-family: helvetica;
-    background-image: url(pics/pexels-pixabay-235985.jpg);
+    background-image: url(./5.jpg);
 
 
 }
@@ -314,13 +314,100 @@ input[type='text'], [type='email'], [type='number'],[type='datetime-local'],sele
     height: 150px;
 }
 
-@media screen and (max-width: 768px) {
+  
+@media (max-width: 640px) {
+
+    .full-content img{
+        width: 180px;
+        position: absolute;
+        top: 30px;
+        right: 0.2px;
+        left: 0.2px;
+     }  
+     
+     .full-content blockquote{
+        position: absolute;
+        top:100px;
+        font-size:20px;
+    }
+
+
+.full-content .card{
+    max-width: 30px;
+    height: 200px;
+    font-size: 10px;
 
 }
 
-@media screen and (max-width: 480px) {
+
+.card .text{
+    font-size:9px;
+
+}
+    
+    
+    
+    .full-content #menu{
+    position: absolute;
+    top:30%;
+    left:30%;
+    }
+
+    .full-content #reservacion{
+        position: absolute;
+        top: 70%;
+        left:30%;
+    }
+
+    .full-content #domicilio{
+        position: absolute;
+        top:110%;
+        left:30%;
+    }
+
+  }
+  
+ /* @media (min-width: 230px) {
+
+
+    .full-content blockquote{
+        display: none;
+    }
+
+    .full-content .card{
+        max-width: 30px;
+        height: 200px;
+        font-size: 10px;
+    
+    }
+
+   
+.full-content .card{
+    max-width: 10px;
+    height: 150px;
+    font-size: 10px;
 
 }
 
-@media screen and (max-width: 420px) {
+
+.card .text{
+    font-size:9px;
+
 }
+
+.full-content #menu{
+
+    left:15%;
+    }
+
+    .full-content #reservacion{
+
+        left:15%;
+    }
+
+    .full-content #domicilio{
+
+        left:15%;
+    }
+
+  } */
