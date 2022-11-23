@@ -9,7 +9,7 @@ body{
     width: 100vw;
     margin: 0;
     font-family: helvetica;
-    background-image: url(./5.jpg);
+    background-color:#a16f44;;
 
 
 }
@@ -28,7 +28,7 @@ body{
     margin-right: 0px;
     margin-left: 0px;
     padding-bottom: 20%;
-    opacity:0.5;
+    opacity:0.7;
 }
 
 .full-content a{
@@ -108,7 +108,7 @@ body{
 .card .title ,.card a{
     margin: 0;
     margin-top: 30px;
-    color:#150a01;;
+    color:#150a01;
     font-weight:600;
     text-decoration: none;
     text-transform: uppercase;
@@ -157,8 +157,18 @@ transition: all 0.3s ease;
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 11px;
-
 }  
+
+
+.flex-center {
+ position: absolute;
+ top:150%;
+ color:#150a01
+}
+
+
+
+
 @media (max-width: 640px) {
 
     .full-content img{
