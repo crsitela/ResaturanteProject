@@ -1,0 +1,366 @@
+@import url('https://css.gg/list.css');
+@import url('https://css.gg/bowl.css');
+@import url('https://css.gg/home-alt.css');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --very-light-pink: #b2aeab;
+  --text-input-field: #f7f4f4;
+  --hospital-green: #a16f44;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+/*------------RESERVACION---------------------------*/
+body{
+    width: 100vw;
+    margin: 0;
+    font-family: helvetica;
+    background-color:#a16f44;
+
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+  border-bottom: 1px solid var(--very-light-pink);
+}
+.menu {
+  display: none;
+}
+.logo {
+  width: 100px;
+}
+.navbar-left ul,
+.navbar-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.navbar-left {
+  display: flex;
+  
+
+}
+.navbar-left ul {
+  margin-left:25%;
+
+}
+.navbar-left ul li a,
+.navbar-right ul li a {
+  text-decoration: none;
+  color: #565452;;
+  border: 0px ;
+  padding: 8px;
+  border-radius: 8px;
+}
+.navbar-left ul li a:hover,
+.navbar-right ul li a:hover {
+  text-decoration: none;
+  color: #362110;
+}
+
+.desktop-menu ul li:last-child {
+  padding-top: 20px;
+  border-top: 1px solid var(--very-light-pink);
+}
+.desktop-menu ul li:last-child a {
+  color: var(--hospital-green);
+  font-size: var(--sm);
+}
+.desktop-menu ul li a {
+  color: var(--back);
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+
+
+.full-content{
+    width: 100%;
+    height: 100vh;
+    background-color:#e8ddd4;
+     padding-top: 250px;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom:30%;
+    opacity:0.9;
+}
+.full-content-Reservation{
+    width: 100%;
+    height: 100vh;
+    background-color:#fce5d2;
+     padding-top: 250px;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 20%;
+  opacity:0.5;
+
+}
+
+.full-content-Reservation a{
+   text-decoration: none; 
+}
+
+.full-content-Reservation img{
+    width: 200px;
+    padding-bottom:0%;
+    margin: 0 auto;
+    position: absolute;
+    top: 70px;
+    left:490px;
+
+ }   
+
+
+
+.full-content-Reservation blockquote{
+    height:4%;
+    padding-bottom:0%;
+    text-align: center;
+    padding-bottom:8%;
+      font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    color:#150a01;
+    position: absolute;
+    top:30%;
+    left:200px;
+  
+
+}
+
+.reservacionbox{
+    opacity:0.9; 
+
+}
+
+.reservacionbox #contact_form{
+  background: #d0b497;
+    padding:30px;
+    border-radius:30px;
+    margin-top:70px;
+  margin-right: 180px;
+}
+
+#contact_form{
+    border-style: double;
+
+}
+
+#contact_form .name{
+    float: left;
+  width: 80%;
+}
+
+#contact_form .email{
+    float: right;
+}
+
+input[type='text'], [type='email'], [type='number'],[type='datetime-local'],select, textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px black;
+  color: #474544;
+  font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#contact_form .telephone{
+ width: 100%;
+}
+
+#contact_form .date-time{
+    float: right;
+}
+#contact_form .date{
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #474544;
+}
+
+:-moz-placeholder { 
+  color: #474544;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #474544;
+}
+
+#contact_form #summit{
+    height: 30px;
+    border: solid 2px #474544;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    padding: 2px 80px;
+    margin-left:15%;
+    border-radius:60px;
+
+}
+
+.mapouter .gmap_canvas{
+    padding-top:40px;
+    padding-bottom:100px;
+    padding-left: 30px;
+    height: 150px;
+}
+
+
+.elfsight-app-6003db90-82cf-4b5e-8d00-606b804008ff{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 11px;
+
+}  
+
+.flex-center {
+  position: absolute;
+  top:180%;
+  left:570px;
+ }
+
+
+ @media (max-width: 640px) {
+
+  .flex-center{
+     display: none;
+   }  
+   
+  }
+
+  @media (max-width:1022px) {
+ 
+    .full-content-Reservation img{
+      position: absolute;
+      top:30%;
+      left:900px;
+    
+    }
+      
+    .full-content-Reservation blockquote{
+      position: absolute;
+     top:30%;
+     left:900px;
+   
+     }   
+   }
+     
+
+
+  @media (max-width: 1206px) {
+
+
+  .full-content-Reservation img{
+    position: absolute;
+      left:350px;
+  
+   }   
+  
+  
+  
+  .full-content-Reservation blockquote{
+    position: absolute;
+      top:30%;
+      left:100px;
+    
+  
+  }
+
+  .flex-center {
+    position: absolute;
+    top:180%;
+    left:430px;
+   }
+  
+}
+
+
+@media (max-width:1029px) {
+  
+  .full-content-Reservation img{
+    position: absolute;
+      left:250px;
+      top:70px;
+  
+   }   
+  
+  
+  
+  .full-content-Reservation blockquote{
+    position: absolute;
+      top:30%;
+      left:20px;
+    
+  
+  }
+
+  .flex-center {
+    position: absolute;
+    top:180%;
+    left:330px;
+   }
+  
+}
+
+@media (max-width:678px) {
+  
+  .full-content-Reservation img{
+    position: absolute;
+      left:110px;
+      top:70px;
+  
+   }   
+  
+  
+  
+  .full-content-Reservation blockquote{
+    position: absolute;
+      top:30%;
+      left:-10%;
+    
+  
+  }
+
+}
