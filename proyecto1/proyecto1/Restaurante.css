@@ -1,0 +1,266 @@
+@import url('https://css.gg/list.css');
+@import url('https://css.gg/bowl.css');
+@import url('https://css.gg/home-alt.css');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{
+    width: 100vw;
+    margin: 0;
+    font-family: helvetica;
+    background-color:#a16f44;;
+
+
+}
+
+
+.full-content{
+    width: 100%;
+    height: 100vh;
+    background-color:#e8ddd4;
+     padding-top: 250px;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 20%;
+    opacity:0.7;
+}
+
+.full-content a{
+   text-decoration: none; 
+}
+
+.full-content img{
+    width: 300px;
+    padding-bottom:0%;
+    margin: 0 auto;
+    position: absolute;
+    top: 90px;
+    right: 0.2px;
+    left: 0.2px;
+
+ }   
+
+
+
+.full-content blockquote{
+    height:4%;
+    padding-bottom:0%;
+    text-align: center;
+    padding-bottom:8%;
+      font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    color:#150a01;
+    position: absolute;
+    top: 45%;
+    right: 0.2px;
+    left: 0.2px;
+
+}
+
+
+
+.full-content .card{
+    background: #c39165;
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    height: 250px;
+    text-shadow: 6px 9px 5px rgba(133, 69, 10, 0.7);
+    margin-left: 10px;
+    border-radius:10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+    border: 2px solid rgba(7, 7, 7, 0.12);
+    font-size: 18px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity:0.8;
+
+
+}
+.icon {
+   background: linear-gradient(90deg, rgb(202, 180, 147) 0%, rgb(146, 78, 6) 0%);
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    max-width: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    transition: all 0.8s ease;
+    background-position: 0px;
+    background-size: 200px;
+}
+
+.card .title ,.card a{
+    margin: 0;
+    margin-top: 30px;
+    color:#150a01;
+    font-weight:600;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+.card .text{
+    width:80%;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color:#150a01;
+    font-weight: 200;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    height: 270px;
+}
+
+.card:hover .text{
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height: 40px;
+}
+
+.card:hover .icon{
+    background-position: -120px;
+    transition: all 0.3s ease;
+}
+
+
+.card:hover .icon i{
+background-color:;
+opacity: 1;
+transition: all 0.3s ease;
+}
+
+
+.elfsight-app-6003db90-82cf-4b5e-8d00-606b804008ff{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 11px;
+}  
+
+
+.flex-center {
+ position: absolute;
+ top:150%;
+ color:#150a01
+}
+
+
+
+
+@media (max-width: 640px) {
+
+    .full-content img{
+        width: 180px;
+        position: absolute;
+        top: 30px;
+        right: 0.2px;
+        left: 0.2px;
+     }  
+     
+     .full-content blockquote{
+        position: absolute;
+        top:100px;
+        font-size:20px;
+    }
+
+
+.full-content .card{
+    max-width: 30px;
+    height: 200px;
+    font-size: 10px;
+
+}
+
+
+.card .text{
+    font-size:9px;
+
+}
+    
+    
+    
+    .full-content #menu{
+    position: absolute;
+    top:30%;
+    left:30%;
+    }
+
+    .full-content #reservacion{
+        position: absolute;
+        top: 70%;
+        left:30%;
+    }
+
+    .full-content #domicilio{
+        position: absolute;
+        top:110%;
+        left:30%;
+    }
+
+  }
+  
+ /* @media (min-width: 230px) {
+
+
+    .full-content blockquote{
+        display: none;
+    }
+
+    .full-content .card{
+        max-width: 30px;
+        height: 200px;
+        font-size: 10px;
+    
+    }
+
+   
+.full-content .card{
+    max-width: 10px;
+    height: 150px;
+    font-size: 10px;
+
+}
+
+
+.card .text{
+    font-size:9px;
+
+}
+
+.full-content #menu{
+
+    left:15%;
+    }
+
+    .full-content #reservacion{
+
+        left:15%;
+    }
+
+    .full-content #domicilio{
+
+        left:15%;
+    }
+
+  } */
