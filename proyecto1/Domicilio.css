@@ -1,17 +1,25 @@
 :root {
     --white: #FFFFFF;
     --black: #000000;
-    --very-light-pink: #C7C7C7;
-    --text-input-field: #F7F7F7;
-    --hospital-green: #ACD9B2;
+    --very-light-pink: #b2aeab;
+    --text-input-field: #f7f4f4;
+    --hospital-green: #a16f44;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
   }
   body {
     margin: 0;
+    ---background-image: url(./5.jpg);
     font-family: 'Quicksand', sans-serif;
+    background: #d7c9bc;
+
+
   }
+
+.background{
+  background: #c6a486;
+}
   .inactive {
     display: none;
   }
@@ -41,25 +49,28 @@
   }
   .navbar-left {
     display: flex;
+    
+
   }
   .navbar-left ul {
-    margin-left: 12px;
+    margin-left:25%;
+
   }
   .navbar-left ul li a,
   .navbar-right ul li a {
     text-decoration: none;
-    color: var(--very-light-pink);
-    border: 1px solid var(--white);
+    color: #565452;;
+    border: 0px ;
     padding: 8px;
     border-radius: 8px;
   }
   .navbar-left ul li a:hover,
   .navbar-right ul li a:hover {
-    border: 1px solid var(--hospital-green);
+    text-decoration: none;
     color: var(--hospital-green);
   }
   .navbar-email {
-    color: var(--very-light-pink);
+    color: #565452;
     cursor: pointer;
     font-size: var(--sm);
     margin-right: 12px;
@@ -87,7 +98,7 @@
     position: absolute;
     top: 60px;
     right: 60px;
-    background: var(--white);
+    background-color:#e8ddd4;
     width: 100px;
     height: auto;
     border: 1px solid var(--very-light-pink);
@@ -123,7 +134,7 @@
   
   /* Menu en mobile */
   .mobile-menu {
-    background-color: var(--white);
+    background-color:#e8ddd4;
     position: absolute;
     top: 60px;
     left: 0;
@@ -159,7 +170,7 @@
   
   /* Aside (product detail y carrito) */
   aside {
-    background-color: var(--white);
+    background-color:#e8ddd4;
     width: 360px;
     box-sizing: border-box;
     position: absolute;
@@ -186,7 +197,7 @@
     grid-template-columns: auto 1fr;
     gap: 16px;
     align-items: center;
-    background-color: var(--text-input-field);
+    background: #eae4df;
     margin-bottom: 24px;
     border-radius: 8px;
     padding: 0 24px;
@@ -207,7 +218,7 @@
     display: grid;
     grid-template-columns: auto 1fr auto auto;
     gap: 16px;
-    margin-bottom: 24px;
+    margin-bottom: 27px;
     align-items: center;
   }
   .shopping-cart figure {
@@ -290,6 +301,7 @@
     font-size: var(--md);
     font-weight: bold;
     height: 50px;
+    margin-bottom: 30px;
   }
   .add-to-cart-button {
     display: flex;
@@ -377,3 +389,4 @@
       display: none;
     }
   }
+
